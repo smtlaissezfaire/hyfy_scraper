@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (10.0.2)
+    childprocess (0.8.0)
+      ffi (~> 1.0, >= 1.0.11)
+    ffi (1.9.18)
+    parallel (1.17.0)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.6.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  parallel
+  selenium-webdriver
+
+BUNDLED WITH
+   2.0.1
