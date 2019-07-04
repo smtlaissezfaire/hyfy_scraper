@@ -73,7 +73,8 @@ length = elements.length
 end
 
 # debugger
-# sleep 10000
+puts "DONE!, but sleeping, waiting for all downloads to finish!"
+sleep 60*60*2 # sleep for a really long time 
 puts "DONE!"
 
 driver.quit
