@@ -56,7 +56,7 @@ sleep 2
 
 elements = driver.find_elements(:css, ".card.video-lib-item")
 length = elements.length
-1.upto(length) do |index|
+0.upto(length-1) do |index|
   while downloading_files.length >= MAX_DOWNLOADING_FILES
     puts "* hit max downloading files, sleeping..."
     sleep 5
